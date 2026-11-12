@@ -1,0 +1,9 @@
+[
+  {"question": "What is the churn risk for customer 7590-VHVEG?", "expect_tool": "get_churn_risk", "answer_contains": "churn"},
+  {"question": "Churn probability for 5575-GNVDE please", "expect_tool": "get_churn_risk", "answer_contains": "churn"},
+  {"question": "Is this transaction fraud? amount=18000 hour=2 velocity_1h=5 new_device=1 distance_km=250 account_age_days=20 international=1 channel=web", "expect_tool": "check_transaction_fraud", "answer_contains": "Fraud probability"},
+  {"question": "Is this transaction fraud?", "expect_tool": null, "answer_contains": "I need"},
+  {"question": "How long is a prepaid pack valid?", "expect_tool": "search_policy", "answer_contains": "prepaid_plans"},
+  {"question": "How fast is a duplicate charge refunded?", "expect_tool": "search_policy", "answer_contains": "billing_and_refunds"},
+  {"question": "What happens after three failed one-time password attempts?", "expect_tool": "search_policy", "answer_contains": "fraud_and_security"}
+]

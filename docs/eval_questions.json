@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How long is a prepaid pack valid after activation?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "Can I renew my prepaid pack before it expires without losing balance?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "What are the requirements to upgrade from prepaid to postpaid?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "What discount does a one-year postpaid contract get?",
+    "doc_id": "postpaid_plans"
+  },
+  {
+    "question": "How much does a customer pay to leave a two-year contract early?",
+    "doc_id": "postpaid_plans"
+  },
+  {
+    "question": "When is an account moved to restricted service for late payment?",
+    "doc_id": "postpaid_plans"
+  },
+  {
+    "question": "How many days do I have to dispute a bill?",
+    "doc_id": "billing_and_refunds"
+  },
+  {
+    "question": "How fast is a duplicate charge refunded?",
+    "doc_id": "billing_and_refunds"
+  },
+  {
+    "question": "What credit do customers get after a long service outage?",
+    "doc_id": "billing_and_refunds"
+  },
+  {
+    "question": "Who is eligible for a retention offer?",
+    "doc_id": "retention_offers"
+  },
+  {
+    "question": "How often can a customer be contacted with a retention offer?",
+    "doc_id": "retention_offers"
+  },
+  {
+    "question": "Why do we keep a holdout group in retention campaigns?",
+    "doc_id": "retention_offers"
+  },
+  {
+    "question": "What happens to a transaction flagged for fraud review?",
+    "doc_id": "fraud_and_security"
+  },
+  {
+    "question": "What happens after three failed one-time password attempts?",
+    "doc_id": "fraud_and_security"
+  },
+  {
+    "question": "What restriction applies after a SIM swap and new device login?",
+    "doc_id": "fraud_and_security"
+  },
+  {
+    "question": "Is there a grace period before a prepaid pack stops working?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "Do unused data allowances roll over when a prepaid plan lapses?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "I want to move from a prepaid SIM to a monthly bill. What do I need?",
+    "doc_id": "prepaid_plans"
+  },
+  {
+    "question": "Is there a discount for committing to a longer contract?",
+    "doc_id": "postpaid_plans"
+  },
+  {
+    "question": "Can I cancel a monthly plan without a penalty?",
+    "doc_id": "postpaid_plans"
+  },
+  {
+    "question": "My money was taken twice for one bill. How do I get it back?",
+    "doc_id": "billing_and_refunds"
+  },
+  {
+    "question": "How much compensation do I get if my service was down for a whole day?",
+    "doc_id": "billing_and_refunds"
+  },
+  {
+    "question": "Which customers are targeted with discounts to stop them leaving?",
+    "doc_id": "retention_offers"
+  },
+  {
+    "question": "Why do we hold back some eligible customers from campaigns?",
+    "doc_id": "retention_offers"
+  },
+  {
+    "question": "What happens if someone enters the wrong one-time code too many times?",
+    "doc_id": "fraud_and_security"
+  },
+  {
+    "question": "A customer changed SIM and logged in from a new phone. What limits apply?",
+    "doc_id": "fraud_and_security"
+  }
+]

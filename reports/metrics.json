@@ -1,0 +1,46 @@
+{
+  "churn": {
+    "base_rate": 0.2654,
+    "cv_roc_auc_mean": 0.8402,
+    "cv_roc_auc_std": 0.0129,
+    "test_roc_auc": 0.8406,
+    "test_pr_auc": 0.6376,
+    "test_brier": 0.1382,
+    "threshold": 0.14
+  },
+  "churn_top_features": {
+    "contract": 0.1418,
+    "tenure_months": 0.0486,
+    "monthly_charge": 0.022,
+    "online_security": 0.0118,
+    "internet_service": 0.0104
+  },
+  "fraud": {
+    "fraud_rate": 0.021,
+    "test_pr_auc_supervised": 0.8264,
+    "test_pr_auc_isolation_forest": 0.5228,
+    "test_roc_auc_supervised": 0.9923,
+    "recall_at_1pct_alerts": 0.4524,
+    "precision_at_1pct_alerts": 0.95,
+    "threshold": 0.26
+  },
+  "fraud_top_features": {
+    "account_age_days": 0.6911,
+    "distance_km": 0.3601,
+    "amount": 0.1476,
+    "velocity_1h": 0.0979,
+    "channel": 0.0633
+  },
+  "rag": {
+    "n_questions": 26,
+    "recall_at_3": 0.9615,
+    "mrr": 0.9359
+  },
+  "rag_misses": [
+    {
+      "question": "My money was taken twice for one bill. How do I get it back?",
+      "expected": "billing_and_refunds",
+      "got": []
+    }
+  ]
+}
