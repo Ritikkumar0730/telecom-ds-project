@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from telco.agent import Agent
+from telco.agent import Agent, make_agent
 from telco.services import Services
 
 CASES = Path(__file__).resolve().parents[2] / "docs" / "agent_eval.json"
@@ -39,5 +39,7 @@ def evaluate_agent(agent: Agent, cases: list[dict]) -> dict:
 
 if __name__ == "__main__":
     services = Services.build()
-    result = evaluate_agent(Agent(services, client=None), json.loads(CASES.read_text(encoding="utf-8")))
+    agent = make_agent(services)
+    result = evaluate_agent(agent, json.loads(CASES.read_text(encoding="utf-8")))
+    result["mode"] = agent.mode
     print(json.dumps(result, indent=2))
